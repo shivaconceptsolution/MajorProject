@@ -1,0 +1,26 @@
+﻿1) Job Portal
+
+
+1)  Student  
+
+   Login
+   Registration
+   View Job
+   Filter Job  BASED ON LOCALITY,EXPERIENCE,TECHNOLOGY,SALARY
+   Logout
+
+2)  HR
+    Login
+    POSTJOB
+    Remove POST
+    Delete
+
+
+ Registration (id,email,password,passingyear,mobileno,studentcourse,qualification,experience,studenttype(internal,external)
+
+  HR
+
+  emailid,password,mobileno,branchname
+  View Student|Block Student|Approve Student
+  Job
+  JobId,title,experience , job description,uploadimage,postdate,duedate
