@@ -1,0 +1,128 @@
+﻿1) Job Portal
+
+
+1)  Student  
+
+   Login
+   Registration
+   View Job
+   Filter Job  BASED ON LOCALITY,EXPERIENCE,TECHNOLOGY,SALARY
+   Logout
+
+2)  HR
+    Login
+    POSTJOB
+    Remove POST
+    Delete
+
+
+ Registration (id,email,password,passingyear,mobileno,studentcourse,qualification,experience,studenttype(internal,external)
+
+  HR
+
+  emailid,password,mobileno,branchname
+  View Student|Block Student|Approve Student
+  Job
+  JobId,title,experience , job description,uploadimage,postdate,duedate
+
+,,,,,,,,,,,,,,,,,,,,,,,,,
+EroomRent 
+category (catid(pk),catname)
+subcategory(subcatid(pk),subcatname,catid(pk))
+ownerreg (username,password,email,mobileno,address,aadhar,pancard,homeregistry,ebillcopy)
+customerreg(userid,password,emailid,mobileno,address,aadhar,otheridentitynumber)
+postroom (roomid,roomdetail,catid,subcatid,location,pincode,cityid,otherfacility,amount,advance,ownerid(fk)),
+booking  (bookingid,roomid(fk),bookingdate,bookingamount,paymentby)
+roomimage (roomimageid,imagepath,roomid)
+state (stateid,statename)
+city (cityid,cityname,stateid)
+feedback (feedbackid,custid,feedbackdate,roomdate)
+subadmin(userid,password,cityid)
+
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Learning CMS:-
+
+Catgegory
+Course
+CourseContent
+Faculty
+Student
+Booking
+State
+City
+Feedback
+
+....................................
+Tutor cabin:-
+Subject master(subjectid(pk),subjectname,class)
+Tutorreg (tutorid(pk),password,emailid,mobileno,address)
+Tutorsubjectassignment (assignid(pk),subjectid,tutorid,fees)
+Student(username,password,emailid,mobileno,class)
+
+Subjectdetail(subdetailid(pk),subjectid,content)
+discussion (discussionid(pk),tutorid,studentid,disucssiondate,time,message)
+feedback (feedbackid(pk),feedbackto,tutorid,username)
+review (reviewid(pk),reviewrate,username,description)
+state  (stateid,statename)
+city   (cityid,cityname,stateid)
+..................................
+E-MEDICAL HUB
+MedicalStore(username,password,licenceno,fullname,address,establishyear,image1,image2,pincode,stateid,cityid,lang,latt)
+CustomerReg(username,password,email,mobileno,address)
+Order (orderid,customerid,medicalstoreid,presecritontext,presecritonimage)
+State (stateid,statename)
+City(cityid,cityname,stateid)
+Feedback(feedbackid(pk),feedbackdesc,customerid)
+Deliverystatus(delid(pk),orderid(fk),status(0,1,2))
+Payment (paymentid(pk),paymentmode,orderid,paymentby,status,paymentdate,orderid(fk),customerid(fk))
+notice (noticeid,noticetitle,noticeduedate)
+offer  (offerid,offerdate,medicalstorid,offerduedate)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Efixman
+Brandmaster (brandid(pk),brandname,
+Devicemaster (deviceid(pk),devicename,brandid(fk))
+Productmaster(productid(pk),productname,brandid(fk),deviceid(fk),amount)
+Customerreg(emailid,mobileno,password,fullname,address)
+Order (orderid(pk),orderdate,productid(fk),customerid(fk),mobileno)
+Delevery (delid(pk),orderid(fk),deldate,status)
+AdminLogin (userid,password)
+Subadminreg (userid,password,cityid,fullname,address,mobile,email)
+
+city (cityid(pk),cityname,stateid(fk))
+state(stateid,statename)
+storemaster (storeid(pk),storename,storeadress,pincode,mobileno,password,lang,latt)
+offer (offerid(pk),offername,offerdetail,offerimage,offerduedate,offerpostdate,brandid)
+billing (billingid(pk),custid(fk),storeid(fk),productid(fk),billdate,gstid(fk))
+gstmaster(gstmasterid,gsttype,percentage)
+payment (paymentid(pk),customerid(fk),orderid(fk),paymentby,amount,paymentdate,paymentstatus)
+review (reviewid,customerid,storeid,reviewdesc,reviewrate)
+
+Urban clap:-
+
+category (catid(pk),catname)
+subcategory(subcatid(pk),subcatname,catid(fk))
+offer(offerid(pk),subcatid,offerprice,offerimage)
+serviceprovider(serviceproviderid,email,mobile,password,cityid,pincode)
+city(cityid(pk),cityname,stateid(fk))
+state(stateid(pk),statename)
+review(reviewid,serviceproviderid(fk),description,reviewrate)
+userregistration(userid,password,emailid,mobileno,address)
+booking (bookingid(pk),userid,serviceproviderid(fk),subcatid(fk),amount)
+amount (amountid,totalamount,paymentmode,status,customerid,serviceproviderid)
+dicount (dicountid,serviceproviderid,amt)
+orderconfirmation(orderid,serviceproviderid,customerid,orderdate,status)
+
+
+
+LTONLINESTORE:- 
+category(catid,catname)
+subcategory(subcatid,subcatname,catid)
+prdouct(productid,productname,subcatid,productimage)
+admin(userid,password)
+user(username,password,email,mobileno)
+order(ordeid,productid,userid,orderdate)
+billing(billingid,orderid,amount,paymentmode,paymentstatus)
+
+
+
