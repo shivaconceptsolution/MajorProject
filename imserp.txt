@@ -1,0 +1,100 @@
+0) branchmaster
+    branchid
+    branchname
+
+
+1) tbl_staff
+
+  staffid
+  email
+  password
+  mobileno
+  joiningdate
+  address
+  timeslot 
+  salary
+  branchid
+
+
+
+2) dailyreport
+
+  reportid
+  timeslot1
+  timeslot2
+  timeslot3
+  timeslot4
+  timeslot5
+  timeslot6
+  timeslot7
+  timeslot8
+  timeslot9
+  timeslotextra
+  reportdate
+  branchid
+  
+
+3) coursemaster
+   courseid
+   coursename
+   duration
+   fees
+   actualfees
+   coursecontent
+   
+
+
+4) Enquiry
+
+   fullname
+   collegename
+   passingyear
+   degree
+   dateofbirth
+   email
+   enquirymode
+   enquiryby
+   counsedby
+   referno
+   enquirystatus
+   remark
+   courseid
+   othercourse
+   enqdate
+   branchid
+
+
+5)  registartion
+    regid
+    enqid
+    courseid
+    regdate
+    parentmobileno
+    parentname
+    branchid
+    
+
+
+6)   fees
+
+     feesid
+     regid
+     feesdate
+     payment
+     rempayment 
+     receiptno
+     branchid
+
+7) followup
+   id
+   enqid
+   remark
+   staffid
+   status
+   branchid
+
+
+
+
+ 
+   
