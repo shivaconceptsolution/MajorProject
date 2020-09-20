@@ -1,0 +1,29 @@
+1) Admin  ------>
+
+  Add,edit,delete,serach device
+
+  Add,edit,delete,search  brand
+  
+  Add edit delete search configuration 
+
+  View vendor
+  View Customer
+  View Order
+
+
+2)  Computer vendor
+
+    Registration
+    Login
+    View Order
+    Serach order 
+    Logout
+
+
+3)  Customer:-
+
+    Login
+    registration
+    Order
+    Logout
+
