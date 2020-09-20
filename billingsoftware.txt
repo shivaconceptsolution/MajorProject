@@ -1,0 +1,32 @@
+Billing System
+
+Login:-   userid, password
+
+
+Window Menu  (Purchase, Sale, Lesure, Report, Exit)
+
+
+Shopkeeper:-
+
+purchaseid
+itemname
+price
+Qty
+unit
+MRP
+Actualprice
+Description
+date
+...............................
+
+Sale
+id
+itemname
+price
+unit
+qty
+description
+date
+
+
+
