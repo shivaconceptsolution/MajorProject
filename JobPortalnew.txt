@@ -1,0 +1,49 @@
+1) Admin  ---->
+
+ Login
+ Reg
+ View JobSeeker Details
+
+ View Latest Job
+
+ View All Jobs
+
+ Manage JobSeekers 
+ Manage Job
+ Logout 
+
+2) Job Seeker
+
+  Login
+  Registration
+  Add Profile
+  Search Job
+  Apply Job
+  Review
+  Logout
+
+
+
+
+3) Company | Hr:-
+
+   Registration
+   Login
+   PostJob
+   View Candidate
+   Manage Job
+   
+
+
+Model class
+
+Reg
+Profile
+technology
+
+job
+reviews
+
+
+
+ 
