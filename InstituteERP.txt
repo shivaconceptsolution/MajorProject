@@ -1,0 +1,50 @@
+Institute ERP:-
+
+Fees Management:-
+
+1)  Admin:-
+
+    1.1)  Login that will be assigned by super admin
+    1.2)  Manage Branch (CRUD)
+    1.3)  Enquiry    (CRUS)
+    1.4)  Reg        (CRUS)     
+    1.5)  Fees       (CRU)
+    1.6)  Report( View Enquiry, View Reg, View Fees)'
+          Visualization By Graph :-
+             
+    1.7)  Recruit( Accountant)
+    1,7)  Logout 
+
+
+
+2)  Accountant | Front Desk
+
+   2.1)  Login
+   2.2)  Enquiry  (CRUD)
+   2.3)  Registration (CRUD)
+   2.4)  Fees   (Create, Read)
+   2.5)  Logout 
+
+
+Data Flow Diagram
+
+Use Case Diagram
+
+
+Branch(Branchid,BranchName)
+
+Course(CourseId, CourseName)
+
+Enquiry( Fullname, mobile,email,dob,collegename,higherqualification,enqdate,coursename,enquierysource(calling,referells) branchid(fk),staffid)
+
+Reg(coursename,regdate,totalfees,submittedfee, remainingfee, discount,enqid(fk))
+
+Fees(regid(fk),courseid(fk),installment,amount,remainingamount)
+
+Recruit(email,password,staffname,joiningdate, designation,experience)
+
+
+
+
+
+
