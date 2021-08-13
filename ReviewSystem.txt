@@ -1,0 +1,20 @@
+1)  Customer:-
+
+   Login
+   Registration
+   Profile
+   Edit Review
+   New Review
+   Delete Review
+   Logout
+   
+
+2)  Admin:-
+    Login (credential will be provided by super admin)
+    View Review
+    Reply Reviw
+    Logout
+
+3)  Super Admin
+     Login by CLI
+     Add Admin
