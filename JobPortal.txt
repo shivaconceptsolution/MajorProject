@@ -16,11 +16,8 @@
     Delete
 
 
- Registration (id,email,password,passingyear,mobileno,studentcourse,qualification,experience,studenttype(internal,external)
-
-  HR
-
-  emailid,password,mobileno,branchname
-  View Student|Block Student|Approve Student
-  Job
-  JobId,title,experience , job description,uploadimage,postdate,duedate
+Registration (id(pk),email,password,passingyear,mobileno,technology,qualification,experience,higherqualification)
+Profile(profileid,fullname, 10th,12th,graduation,postgraduation,regid(fk))
+HR(emailid,password,mobileno,companyname)
+Job (JobId(pk),title,experience , job description,uploadimage,postdate,duedate)
+ApplyJob(applyid,jobid(fk),applydate,resumepath,regid(fk))
